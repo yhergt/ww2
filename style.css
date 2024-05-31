@@ -1,0 +1,56 @@
+
+.box {
+ background-color: lightgray;
+ border: 2px solid black;
+ margin: 20px;
+ padding: 10px;
+ font-size: 110%;
+ text-align: center;
+}
+
+h1 {font-family: arial;}
+h3 {font-family: arial; text-align: center;}
+h4 {font-family: arial;}
+p {font-family: calibri; text-align: center;}
+a {font-family: calibri;}
+li {font-family: calibri; text-align: left;}
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  font-family: calibri;
+}
+summary {font-family: calibri; text-align: center; font-size: 150%;}
+
+.header {
+  background-image: url('background.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 400px; 
+  font-size: 200%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.highlight {
+  color: black;
+  background-color: white; 
+}
+.footnote {
+  position: relative;
+}
+
+.footnote:hover .preview {
+  display: block;
+}
+
+.preview {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 200px;
+  z-index: 1;
+}
